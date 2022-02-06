@@ -29,7 +29,7 @@ app.use(express.static(path.join(__dirname, "public")));
 
 //All routes here
 app.get("/", (req, res) => {
-  res.render("index");
+  res.render("client/index");
 });
 
 //App is listening to http://localhost:3000/
