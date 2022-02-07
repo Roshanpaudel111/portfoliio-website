@@ -203,7 +203,7 @@ h6 {
 .nav-menu .active:focus,
 .nav-menu li:hover > a {
   color: #fff;
-  background: #0563bb;
+  background: #000000;
 }
 .nav-menu a:hover span,
 .nav-menu .active span,
@@ -292,7 +292,7 @@ h6 {
   font-family: "Monospace", sans-serif;
 }
 #hero p span {
-  color: #0563bb;
+  color: #000000;
   letter-spacing: 1px;
 }
 #hero .social-links {
@@ -410,7 +410,7 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: 0.3s all;
+  transition: 0.2s ease-in-out all;
 }
 .skills .progress .skill {
   padding: 5px 0;
@@ -433,59 +433,6 @@ section {
 }
 .skills .progress:hover {
   transform: scale(1.2);
-}
-/*--------------------------------------------------------------
-# Resume
---------------------------------------------------------------*/
-.resume .resume-title {
-  font-size: 26px;
-  font-weight: 700;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  color: #45505b;
-}
-.resume .resume-item {
-  padding: 0 0 20px 20px;
-  margin-top: -2px;
-  border-left: 2px solid #0563bb;
-  position: relative;
-}
-.resume .resume-item h4 {
-  line-height: 18px;
-  font-size: 18px;
-  font-weight: 600;
-  text-transform: uppercase;
-  font-family: "Monospace", sans-serif;
-  color: #0563bb;
-  margin-bottom: 10px;
-}
-.resume .resume-item h5 {
-  font-size: 16px;
-  background: #f7f8f9;
-  padding: 5px 15px;
-  display: inline-block;
-  font-weight: 600;
-  margin-bottom: 10px;
-}
-.resume .resume-item ul {
-  padding-left: 20px;
-}
-.resume .resume-item ul li {
-  padding-bottom: 10px;
-}
-.resume .resume-item:last-child {
-  padding-bottom: 0;
-}
-.resume .resume-item::before {
-  content: "";
-  position: absolute;
-  width: 16px;
-  height: 16px;
-  border-radius: 50px;
-  left: -9px;
-  top: 0;
-  background: #fff;
-  border: 2px solid #0563bb;
 }
 
 /*--------------------------------------------------------------
@@ -873,7 +820,7 @@ section {
 }
 .contact .info i {
   font-size: 20px;
-  color: #0563bb;
+  color: #000000;
   float: left;
   width: 44px;
   height: 44px;
@@ -904,42 +851,42 @@ section {
 .contact .info .email:hover i,
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
-  background: #0563bb;
+  background: #000000;
   color: #fff;
 }
-.contact .php-email-form {
+.contact .email-form {
   width: 100%;
   background: #fff;
 }
-.contact .php-email-form .form-group {
+.contact .email-form .form-group {
   padding-bottom: 8px;
 }
-.contact .php-email-form .error-message {
-  /* display: none; */
+.contact .email-form .error-message {
+  display: none;
   color: #fff;
   background: #ed3c0d;
   text-align: left;
   padding: 15px;
   font-weight: 600;
 }
-.contact .php-email-form .error-message br + br {
+.contact .email-form .error-message br + br {
   margin-top: 25px;
 }
-.contact .php-email-form .sent-message {
+.contact .email-form .sent-message {
   display: none;
   color: #fff;
-  background: #18d26e;
+  background: #53ff44;
   text-align: center;
   padding: 15px;
   font-weight: 600;
 }
-.contact .php-email-form .loading {
+/* .contact .email-form .loading {
   display: none;
   background: #fff;
   text-align: center;
   padding: 15px;
 }
-.contact .php-email-form .loading:before {
+.contact .email-form .loading:before {
   content: "";
   display: inline-block;
   border-radius: 50%;
@@ -950,29 +897,30 @@ section {
   border-top-color: #eee;
   -webkit-animation: animate-loading 1s linear infinite;
   animation: animate-loading 1s linear infinite;
-}
-.contact .php-email-form input,
-.contact .php-email-form textarea {
+} */
+.contact .email-form input,
+.contact .email-form textarea {
   border-radius: 4px;
   box-shadow: none;
   font-size: 14px;
 }
-.contact .php-email-form input {
+.contact .email-form input {
   height: 44px;
 }
-.contact .php-email-form textarea {
+.contact .email-form textarea {
   padding: 10px 12px;
 }
-.contact .php-email-form button[type="submit"] {
-  background: #0563bb;
+.contact .email-form button[type="submit"] {
+  background: #0f0f0f;
   border: 0;
   padding: 10px 35px;
   color: #fff;
   transition: 0.4s;
   border-radius: 50px;
 }
-.contact .php-email-form button[type="submit"]:hover {
-  background: #0678e3;
+.contact .email-form button[type="submit"]:hover {
+  transform: scale(1.1);
+  background-color: #0000003f;
 }
 @-webkit-keyframes animate-loading {
   0% {
@@ -995,7 +943,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #f7f8f9;
+  background: #ffffff;
   color: #45505b;
   font-size: 14px;
   text-align: center;
@@ -1021,7 +969,7 @@ section {
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #0563bb;
+  background: #000000;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
