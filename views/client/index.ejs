@@ -10,6 +10,8 @@
   </head>
   <%- include('./partials/stylesheets') %>
   <body>
+    <div class="color-ball1"></div>
+    <div class="color-ball2"></div>
     <!-- ======= Mobile nav toggle button ======= -->
     <!-- <button type="button" class="mobile-nav-toggle d-xl-none"><i class="bi bi-list mobile-nav-toggle"></i></button> -->
     <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
@@ -18,7 +20,9 @@
     <!-- End Header -->
 
     <!-- ======= Hero Section ======= -->
-    <%- include('./partials/hero') %>
+    <div id="hero-container">
+      <%- include('./partials/hero') %>
+    </div>
     <!-- End Hero -->
 
     <main id="main">
