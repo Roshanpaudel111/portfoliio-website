@@ -279,12 +279,12 @@ h6 {
 #hero {
   width: 80%;
   height: 80vh;
-  background-color: rgba(255, 255, 255, 0.295);
+  background-color: rgba(255, 255, 255, 0.3);
   backdrop-filter: blur(10px);
   /* border: 2px solid black; */
   border-radius: 2rem;
   background-size: cover;
-  position: relative;
+  /* position: relative; */
 }
 #hero-container {
   width: 100%;
@@ -292,6 +292,7 @@ h6 {
   display: flex;
   align-items: center;
   justify-content: center;
+  /* border: 2px solid black; */
 }
 @media (min-width: 992px) {
   #hero {
@@ -401,6 +402,22 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+#main {
+  margin: 0;
+  width: 100%;
+}
+
+#about-container {
+  width: 80%;
+  height: auto;
+  background-color: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(10px);
+  /* border: 2px solid black; */
+  border-radius: 2rem;
+  background-size: cover;
+  padding: 2rem;
+}
+
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
@@ -431,8 +448,20 @@ section {
 /*--------------------------------------------------------------
 # Skills
 --------------------------------------------------------------*/
+#skills-container {
+  width: 80%;
+  height: auto;
+  background-color: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(10px);
+  /* border: 2px solid black; */
+  border-radius: 2rem;
+  background-size: cover;
+  padding: 2rem;
+}
+
 .skills .progress {
   height: 60px;
+  /* width: 300px; */
   display: block;
   background: none;
   border-radius: 0;
@@ -440,6 +469,8 @@ section {
   justify-content: center;
   align-items: center;
   transition: 0.2s ease-in-out all;
+  /* background-color: rgba(255, 255, 255, 0); */
+  /* backdrop-filter: blur(0.1px); */
 }
 .skills .progress .skill {
   padding: 5px 0;
@@ -448,8 +479,8 @@ section {
   display: block;
   font-weight: 400;
   font-family: 'Monospace', sans-serif;
-  color: #45505b;
-  font-size: 2rem;
+  color: #2c2c2c;
+  font-size: 1.5rem;
   text-align: center;
   cursor: pointer;
 }
@@ -458,7 +489,7 @@ section {
   font-style: normal;
 }
 .skills .progress-bar-wrap {
-  background: #f2f3f5;
+  background: #f2f3f573;
 }
 .skills .progress:hover {
   transform: scale(1.2);
