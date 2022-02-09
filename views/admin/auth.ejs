@@ -5,22 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Auth</title>
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/admin.css">
   </head>
   <body>
-    <div class="container">
-      <div class="row">
-        <div class="col6 offset-3">
-          <form action="">
-            <label for="username">Username</label>
+   <div class="col12">
+          <form action="/auth" method="post">
+            <label class="form-label" for="username">Username</label>
             <input
               class="form-control"
               type="text"
               name="username"
               id="username"
             />
+            <label class="form-label" for="password">Password</label>
+            <input
+              class="form-control"
+              type="password"
+              name="password"
+              id="password"
+            />
+            <button class="btn btn-primary">Login </button>
           </form>
         </div>
-      </div>
-    </div>
-  </body>
+   </body>
 </html>

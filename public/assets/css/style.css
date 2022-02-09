@@ -34,6 +34,17 @@ body {
   right: 5rem;
   z-index: -1;
 }
+.color-ball3 {
+  height: 8rem;
+  width: 8rem;
+  border-radius: 50%;
+  background: linear-gradient(to top right, rgb(0, 68, 255), rgb(57, 255, 90));
+  position: fixed;
+  top: 1rem;
+  left: 15rem;
+  z-index: -1;
+}
+
 a {
   color: #0563bb;
   text-decoration: none;
@@ -199,6 +210,7 @@ h6 {
   overflow: hidden;
   transition: 0.3s;
 }
+
 .nav-menu a i,
 .nav-menu a:focus i {
   font-size: 20px;
