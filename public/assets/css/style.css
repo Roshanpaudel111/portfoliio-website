@@ -204,7 +204,8 @@ h6 {
   transition: 0.3s;
   font-size: 15px;
   border-radius: 50px;
-  background: #f2f3f5;
+  background: #f2f3f54d;
+  backdrop-filter: blur(10rem);
   height: 56px;
   width: 100%;
   overflow: hidden;
@@ -1094,4 +1095,27 @@ section {
 }
 #footer .credits {
   font-size: 13px;
+}
+
+/* ............color balls animation...............  */
+
+.color-ball1 {
+  animation: circular 60s infinite forwards alternate ease-in-out 3s;
+}
+.color-ball2 {
+  animation: circular 50s infinite forwards alternate ease-in-out 1s;
+}
+.color-ball3 {
+  animation: circular 30s infinite alternate forwards;
+}
+@keyframes circular {
+  0% {
+  }
+  33% {
+    transform: rotate(0deg) translateX(200px) translateY(100px) rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg) translateX(200px) translateY(100px)
+      rotate(-360deg);
+  }
 }
